@@ -3,6 +3,7 @@ version: 0.1 Alpha
 main: nl.justspooky.tlc.Startup
 author: Kevin Wilmsen
 website: http:/www.kevinwilmsen.nl
-
+description: Server core voor themelandcraft
 Commands:
-
+  themelandcraft:
+    description:Het main command van deze plugin.

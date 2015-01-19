@@ -1,6 +1,9 @@
 package nl.justspooky.tlc;
 
 import java.util.logging.Logger;
+
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.PluginManager;
 
@@ -33,4 +36,17 @@ public class Startup extends JavaPlugin {
         l.info("Author: " + getDescription().getAuthors());
         l.info("-----------------------------------------------------");
     }
+
+    @Override
+    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+
+    if (cmd.getName().equalsIgnoreCase("themelandcraft")){
+        Usercommands.UserHelp(sender);
+        return true;
+    }
+
+
+    return true;
+}
+
 }
