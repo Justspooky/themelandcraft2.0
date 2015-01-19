@@ -1,0 +1,8 @@
+name: ThemeLandCraft2.0
+version: 0.1 Alpha
+main: nl.justspooky.tlc.Startup
+author: Kevin Wilmsen
+website: http:/www.kevinwilmsen.nl
+
+Commands:
+
