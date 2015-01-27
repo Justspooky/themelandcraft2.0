@@ -1,9 +1,17 @@
 name: ThemeLandCraft2.0
-version: 0.1 Alpha
+version: 0.3 Alpha
 main: nl.justspooky.tlc.Startup
 author: Kevin Wilmsen
 website: http:/www.kevinwilmsen.nl
-description: Server core voor themelandcraft
-Commands:
+description: Server core voor themelandcraft.
+
+commands:
   themelandcraft:
-    description:Het main command van deze plugin.
+    description: Main commands
+    aliases: [tlc]
+  website:
+    description: Website command!
+    aliases: [web]
+  resourcepack:
+    description: Download ons resourcepack
+    aliases: [rp]
